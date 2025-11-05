@@ -13,7 +13,7 @@ require (
 	github.com/dolthub/fslock v0.0.3
 	github.com/dolthub/ishell v0.0.0-20240701202509-2b217167d718
 	github.com/dolthub/sqllogictest/go v0.0.0-20201107003712-816f3ae12d81
-	github.com/dolthub/vitess v0.0.0-20251031205214-d09b65bd77b0
+	github.com/dolthub/vitess v0.0.0-20251103175035-682aa29f4561
 	github.com/dustin/go-humanize v1.0.1
 	github.com/fatih/color v1.13.0
 	github.com/flynn-archive/go-shlex v0.0.0-20150515145356-3f9db97f8568
@@ -61,7 +61,7 @@ require (
 	github.com/dolthub/dolt-mcp v0.2.2
 	github.com/dolthub/eventsapi_schema v0.0.0-20250915094920-eadfd39051ca
 	github.com/dolthub/flatbuffers/v23 v23.3.3-dh.2
-	github.com/dolthub/go-mysql-server v0.20.1-0.20251103204205-a231fb5b49cf
+	github.com/dolthub/go-mysql-server v0.20.1-0.20251105084221-b69b04b67668
 	github.com/dolthub/gozstd v0.0.0-20240423170813-23a2903bca63
 	github.com/edsrzf/mmap-go v1.2.0
 	github.com/esote/minmaxheap v1.0.0
@@ -199,9 +199,4 @@ require (
 	gopkg.in/tomb.v1 v1.0.0-20141024135613-dd632973f1e7 // indirect
 )
 
-replace github.com/dolthub/go-mysql-server => ../../go-mysql-server
-replace github.com/dolthub/vitess => ../../vitess
-
 go 1.25.3
-
-replace github.com/dolthub/go-mysql-server => ../../go-mysql-servergi
